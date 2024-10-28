@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environments } from './environments/environments';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { environments } from './environments/environments';
     LoginComponent,
     RegistrationComponent,
     ProductsListComponent,
-    NavComponent
+    NavComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,7 @@ import { map } from 'rxjs';
 export class ProductsListComponent {
   tapKiegek:any=[]
   newProduct:any={}
+  kereses=""
   columns=[
     {key:"name", text:"Név", type:'text'},
     {key:"price", text:"Ár", type:'number'},
