@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 /bazel-out
+#Firebase
+/src/app/environments
+/src/app/environments/*
+/src/app/environments/environments.ts
 
 # Node
 /node_modules
